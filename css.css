@@ -1,0 +1,38 @@
+.Avis {
+  color: black;
+  margin: auto;
+  position: relative;
+  left: -100px;
+  top: -60px;
+  font-family: 'Courier New', Courier, monospace;
+  text-decoration: none;
+  font-size: 40px;
+  line-height: 60px;
+}
+
+.Url {
+  color: black;
+  margin: auto;
+  font-family: 'Courier New', Courier, monospace;
+  text-decoration: none;
+  font-size: 40px;
+  line-height: 19vh;
+}
+
+nav {
+  display: flex;
+  flex-direction: column;
+}
+
+body {
+  line-height: 10%;
+}
+
+.image-centree {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  /* ou en raccourci : margin: 0 auto; */
+  width: 50%; /* Définir une largeur obligatoire */
+}
+
