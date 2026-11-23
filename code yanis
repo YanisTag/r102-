@@ -1,1 +1,15 @@
-
+<html lang="fr">
+	<head>
+		<!-- Informations générale sur la page (invisible) -->
+		<!-- Titre de la page(visible dans le navigateur) -->
+		<title>Titre de la page</title>
+		<!-- Encodage du fichier (particulièrement utile pour les accents) -->
+		<meta charset="utf-8">
+	</head>
+	<body>
+	<!-- Partie visible de la page HTML -->
+	test
+	<!-- Ici votre site Web -->
+	
+	</body>
+</html>
