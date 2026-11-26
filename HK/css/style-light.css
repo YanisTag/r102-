@@ -1,0 +1,99 @@
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+body {
+  background-color: #f4f6fb;
+  color: #222222;
+  font-size: 17px;
+  line-height: 1.6;
+}
+
+header {
+  background-color: #2f5bd0;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+nav { margin: 8px 0; text-align: center; }
+nav a { color: white; text-decoration: none; margin: 0 8px; padding: 4px 8px; }
+nav a:hover { background-color: #1e3f9c; border-radius: 6px; }
+
+#style-link { color: #dfe7ff; font-size: 14px; }
+
+main { max-width: 900px; margin: 20px auto; padding: 0 15px; }
+
+h1, h2 { font-weight: bold; color: #1e3f9c; }
+
+.card {
+  background-color: white;
+  border: 1px solid #d8dee8;
+  border-radius: 12px;
+  padding: 15px;
+  margin-bottom: 15px;
+}
+
+.card h2 { font-size: 20px; }
+
+.home { background-image: none; }
+
+.hero { padding: 50px 15px 30px; }
+.hero h1 { font-size: 44px; margin-bottom: 25px; }
+
+.game-menu { list-style: none; display: flex; flex-wrap: wrap; gap: 10px; }
+
+.game-menu a {
+  display: block;
+  padding: 10px 22px;
+  background-color: #2f5bd0;
+  color: white;
+  text-decoration: none;
+  border-radius: 30px;
+}
+
+.game-menu a:hover { background-color: #1e3f9c; }
+
+label { display: block; margin-bottom: 4px; font-weight: bold; }
+
+input, select, textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 14px;
+  border: 2px solid #d8dee8;
+  border-radius: 8px;
+  font-size: 16px;
+}
+
+button {
+  background-color: #2f5bd0;
+  color: white;
+  border: none;
+  border-radius: 30px;
+  padding: 12px 28px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+button:hover { background-color: #1e3f9c; }
+
+video { width: 100%; border-radius: 12px; }
+.top-button {
+  position: fixed;
+  bottom: 15px;
+  right: 15px;
+  background-color: #1e3f9c;
+  color: white;
+  padding: 10px 16px;
+  border-radius: 30px;
+  text-decoration: none;
+}
+
+footer { text-align: center; font-size: 14px; padding: 30px 15px 60px; color: #5b6577; }
+
+@media (min-width: 900px) {
+  .card-list { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 15px; }
+  .card-list .card { margin-bottom: 0; }
+}
